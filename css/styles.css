@@ -62,8 +62,16 @@ body {
   color: var(--black);
 }
 
+.site-nav-list {
+  list-style-type: none;
+}
+
 .site-nav .link.current {
   color: var(--accent-cl);
+}
+
+.contacts {
+  list-style-type: none;
 }
 
 .contacts .link {
@@ -108,7 +116,11 @@ body {
   color: var(--black);
 }
 
-.features .title {
+.features-list {
+  list-style-type: none;
+}
+
+.features-list .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -116,9 +128,14 @@ body {
   color: var(--black);
 }
 
+.work-list {
+  list-style-type: none;
+}
+
 .command {
   font-size: 16px;
   line-height: 1.187;
+  list-style-type: none;
 }
 .command-title {
   font-size: 16px;
@@ -149,6 +166,12 @@ body {
 }
 
 /* portfolio */
+
+.filter,
+.portfolio-list {
+  list-style-type: none;
+}
+
 .btn-portfolio {
   font-family: inherit;
   font-weight: 500;
